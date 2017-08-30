@@ -8,7 +8,6 @@
                   <h3 class='box-title'>BOOKING LIST <?php echo anchor('booking/create/','Create',array('class'=>'btn btn-danger btn-sm'));?>
 		<?php echo anchor(site_url('booking/excel'), ' <i class="fa fa-file-excel-o"></i> Excel', 'class="btn btn-primary btn-sm"'); ?>
 		<?php echo anchor(site_url('booking/word'), '<i class="fa fa-file-word-o"></i> Word', 'class="btn btn-primary btn-sm"'); ?>
-        <?php echo anchor(site_url('booking/pdf'), '<i class="fa fa-file-pdf-o"></i> PDF', 'class="btn btn-primary btn-sm"'); ?>
         </h3>
                 </div><!-- /.box-header -->
                 <div class='box-body'>
